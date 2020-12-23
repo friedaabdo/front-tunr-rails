@@ -7,7 +7,7 @@ import Form from "./Form";
 
 function App() {
   // URL for backend data
-  const url = "http://localhost:3006";
+  const url = "https://tunr-rails2.herokuapp.com";
   // State to hold song list
   const [songs, setSongs] = useState([]);
 
