@@ -17,7 +17,7 @@ const FaveIcon = (props) => {
     }
   };
 
-  return <h3 onClick={handleClick}>{faved}</h3>;
+  return <h3 onClick={handleClick} >{faved}</h3>;
 };
 
 export default FaveIcon;
